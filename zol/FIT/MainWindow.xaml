@@ -1,0 +1,21 @@
+﻿<Window x:Class="FIT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FIT"
+        mc:Ignorable="d"
+        Title="fit" Height="620" Width="800" Background="Black" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black" Margin="0,0,0,-6" AutomationProperties.IsOffscreenBehavior="Default">
+        <Label Content="-----------------------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="-9,52,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="417" FontSize="22"/>
+        <Label Content="F. I .T" Background="Black" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Foreground="White" Height="42" Width="60" FontSize="22" RenderTransformOrigin="0.783,-1.249"/>
+        <Label Content="Сеть фитнес-центров" Background="Black" HorizontalAlignment="Left" Margin="126,57,0,0" VerticalAlignment="Top" Foreground="White" Height="33" Width="148" FontSize="14"/>
+        <Button Content="Комплекс программ" HorizontalAlignment="Left" Margin="105,146,0,0" VerticalAlignment="Top" BorderBrush="Black" Background="Black" Height="38" Width="190" FontSize="16" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="Лист записи" HorizontalAlignment="Left" Margin="105,281,0,0" VerticalAlignment="Top" BorderBrush="Black" Background="Black" Height="39" Width="190" FontSize="16" Foreground="White" Click="Button_Click_3"/>
+        <Button Content="Члены клуба" HorizontalAlignment="Left" Margin="104,214,0,0" VerticalAlignment="Top" BorderBrush="Black" Background="Black" Height="40" Width="190" FontSize="16" Foreground="White" Click="Button_Click_2"/>
+        <Button Content="Сотрудники" HorizontalAlignment="Left" Margin="104,456,0,0" VerticalAlignment="Top" BorderBrush="Black" Background="Black" Height="40" Width="190" FontSize="16" Foreground="White" Click="Button_Click"/>
+        <Label Content="-----------------------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="0,562,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="417" FontSize="22"/>
+        <Image x:Name="fonfit" Margin="394,0,0,0" Source="/Projects — VSHD Design Dubai.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>

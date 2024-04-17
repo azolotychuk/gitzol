@@ -1,0 +1,49 @@
+﻿<Window x:Class="FIT.ClubStaf"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FIT"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Сотрудники" Height="650" Width="800" Background="Black">
+    <Grid>
+        <Label Content="С О Т Р У Д Н И К И    К Л У Б А" Background="Black" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" Foreground="White" Height="42" Width="326" FontSize="22" RenderTransformOrigin="0.783,-1.249"/>
+        <Label Content="-------------------------------------------------------------------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="-9,52,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="809" FontSize="22"/>
+        <Label Content="Т Р Е Н Е Р С К И Й    С О С Т А В" Background="Black" HorizontalAlignment="Left" Margin="55,155,0,0" VerticalAlignment="Top" Foreground="White" Height="42" Width="278" FontSize="18" RenderTransformOrigin="0.783,-1.249"/>
+        <Label Content="С П Е Ц И А Л И С Т Ы" Background="Black" HorizontalAlignment="Left" Margin="513,155,0,0" VerticalAlignment="Top" Foreground="White" Height="42" Width="198" FontSize="18" RenderTransformOrigin="0.783,-1.249"/>
+        <Label Content="-------------------------------------------------------------------------------------------" Background="{x:Null}" HorizontalAlignment="Center" Margin="0,333,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="562" FontSize="22" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.381"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="ФИО сотрудника" Background="Black" HorizontalAlignment="Left" Margin="11,266,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="148" FontSize="14"/>
+        <Label Content="Программа Сотрудника" Background="Black" HorizontalAlignment="Left" Margin="11,316,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="168" FontSize="14"/>
+        <Label Content="Расписание Сотрудника" Background="Black" HorizontalAlignment="Left" Margin="11,374,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="168" FontSize="14"/>
+        <Label Content="ФИО сотрудника" Background="Black" HorizontalAlignment="Left" Margin="401,266,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="148" FontSize="14"/>
+        <Label Content="Программа Сотрудника" Background="Black" HorizontalAlignment="Left" Margin="401,316,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="168" FontSize="14"/>
+        <Label Content="Расписание Сотрудника" Background="Black" HorizontalAlignment="Left" Margin="401,374,0,0" VerticalAlignment="Top" Foreground="White" Height="32" Width="168" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Margin="183,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Margin="183,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Margin="183,382,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Margin="569,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Margin="569,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Margin="569,382,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202"/>
+        <Button Content="→" HorizontalAlignment="Left" Margin="351,424,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="36" RenderTransformOrigin="0.456,0.251"/>
+        <Button Content="←" HorizontalAlignment="Left" Margin="11,424,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="36" RenderTransformOrigin="0.285,0.116"/>
+        <Button Content="→" HorizontalAlignment="Left" Margin="745,424,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="36" RenderTransformOrigin="0.456,0.251"/>
+        <Button Content="←" HorizontalAlignment="Left" Margin="421,424,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="36" RenderTransformOrigin="0.285,0.116"/>
+        <Label Content="------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="55,408,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="278" FontSize="22"/>
+        <Label Content="------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="461,408,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="278" FontSize="22"/>
+        <Label Content="------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="55,456,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="40" Width="278" FontSize="22"/>
+        <Label Content="------------------------------" Background="{x:Null}" HorizontalAlignment="Left" Margin="461,450,0,0" VerticalAlignment="Top" Foreground="#FFFDD8BD" Height="42" Width="278" FontSize="22"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="572,497,0,0" VerticalAlignment="Top" Width="56" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="166,496,0,0" VerticalAlignment="Top" Width="56" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}"/>
+
+    </Grid>
+</Window>
